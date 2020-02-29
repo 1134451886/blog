@@ -1,0 +1,1306 @@
+hexo-site@0.0.0 C:\blog
++-- gitalk@1.6.0
+| +-- autosize@3.0.21
+| +-- axios@0.19.2
+| | `-- follow-redirects@1.5.10
+| |   `-- debug@3.1.0
+| |     `-- ms@2.0.0 deduped
+| +-- date-fns@1.28.5
+| +-- es6-promise@4.1.1
+| +-- github-markdown-css@2.8.0
+| +-- node-polyglot@2.2.2
+| | +-- for-each@0.3.3
+| | | `-- is-callable@1.1.5
+| | +-- has@1.0.3
+| | | `-- function-bind@1.1.1
+| | +-- string.prototype.trim@1.2.1
+| | | +-- define-properties@1.1.3
+| | | | `-- object-keys@1.1.1
+| | | +-- es-abstract@1.17.4
+| | | | +-- es-to-primitive@1.2.1
+| | | | | +-- is-callable@1.1.5 deduped
+| | | | | +-- is-date-object@1.0.2
+| | | | | `-- is-symbol@1.0.3
+| | | | |   `-- has-symbols@1.0.1 deduped
+| | | | +-- function-bind@1.1.1 deduped
+| | | | +-- has@1.0.3 deduped
+| | | | +-- has-symbols@1.0.1
+| | | | +-- is-callable@1.1.5 deduped
+| | | | +-- is-regex@1.0.5
+| | | | | `-- has@1.0.3 deduped
+| | | | +-- object-inspect@1.7.0
+| | | | +-- object-keys@1.1.1 deduped
+| | | | +-- object.assign@4.1.0
+| | | | | +-- define-properties@1.1.3 deduped
+| | | | | +-- function-bind@1.1.1 deduped
+| | | | | +-- has-symbols@1.0.1 deduped
+| | | | | `-- object-keys@1.1.1 deduped
+| | | | +-- string.prototype.trimleft@2.1.1
+| | | | | +-- define-properties@1.1.3 deduped
+| | | | | `-- function-bind@1.1.1 deduped
+| | | | `-- string.prototype.trimright@2.1.1
+| | | |   +-- define-properties@1.1.3 deduped
+| | | |   `-- function-bind@1.1.1 deduped
+| | | `-- function-bind@1.1.1 deduped
+| | `-- warning@3.0.0
+| |   `-- loose-envify@1.4.0
+| |     `-- js-tokens@4.0.0
+| +-- preact@8.1.0
+| +-- preact-compat@3.16.0
+| | +-- immutability-helper@2.9.1
+| | | `-- invariant@2.2.4
+| | |   `-- loose-envify@1.4.0 deduped
+| | +-- preact-render-to-string@3.8.2
+| | | `-- pretty-format@3.8.0
+| | +-- preact-transition-group@1.1.1
+| | +-- prop-types@15.7.2
+| | | +-- loose-envify@1.4.0 deduped
+| | | +-- object-assign@4.1.1
+| | | `-- react-is@16.12.0
+| | `-- standalone-react-addons-pure-render-mixin@0.1.1
+| +-- UNMET PEER DEPENDENCY react@0.13.x || 0.14.x || 15.x.x
+| +-- UNMET PEER DEPENDENCY react-dom@0.13.x || 0.14.x || 15.x.x
+| `-- react-flip-move@2.9.14
++-- hexo@4.2.0
+| +-- abbrev@1.1.1
+| +-- archy@1.0.0
+| +-- bluebird@3.7.2
+| +-- chalk@3.0.0
+| | +-- ansi-styles@4.2.1
+| | | +-- @types/color-name@1.1.1
+| | | `-- color-convert@2.0.1
+| | |   `-- color-name@1.1.4
+| | `-- supports-color@7.1.0
+| |   `-- has-flag@4.0.0
+| +-- hexo-cli@3.1.0
+| | +-- abbrev@1.1.1 deduped
+| | +-- acorn@7.1.0
+| | +-- bluebird@3.7.2 deduped
+| | +-- chalk@2.4.2
+| | | +-- ansi-styles@3.2.1
+| | | | `-- color-convert@1.9.3
+| | | |   `-- color-name@1.1.3
+| | | +-- escape-string-regexp@1.0.5 deduped
+| | | `-- supports-color@5.5.0
+| | |   `-- has-flag@3.0.0
+| | +-- command-exists@1.2.8
+| | +-- hexo-fs@2.0.0 deduped
+| | +-- hexo-log@1.0.0 deduped
+| | +-- hexo-util@1.8.1 deduped
+| | +-- minimist@1.2.0
+| | +-- resolve@1.15.1 deduped
+| | `-- tildify@2.0.0 deduped
+| +-- hexo-front-matter@1.0.0
+| | `-- js-yaml@3.13.1 deduped
+| +-- hexo-fs@2.0.0
+| | +-- bluebird@3.7.2 deduped
+| | +-- chokidar@3.3.1
+| | | +-- anymatch@3.1.1
+| | | | +-- normalize-path@3.0.0 deduped
+| | | | `-- picomatch@2.2.1 deduped
+| | | +-- braces@3.0.2 deduped
+| | | +-- UNMET OPTIONAL DEPENDENCY fsevents@2.1.2
+| | | +-- glob-parent@5.1.0
+| | | | `-- is-glob@4.0.1 deduped
+| | | +-- is-binary-path@2.1.0
+| | | | `-- binary-extensions@2.0.0
+| | | +-- is-glob@4.0.1
+| | | | `-- is-extglob@2.1.1
+| | | +-- normalize-path@3.0.0
+| | | `-- readdirp@3.3.0
+| | |   `-- picomatch@2.2.1 deduped
+| | +-- escape-string-regexp@2.0.0
+| | `-- graceful-fs@4.2.3
+| +-- hexo-i18n@1.0.0
+| | `-- sprintf-js@1.0.3
+| +-- hexo-log@1.0.0
+| | +-- chalk@2.4.2
+| | | +-- ansi-styles@3.2.1
+| | | | `-- color-convert@1.9.3
+| | | |   `-- color-name@1.1.3
+| | | +-- escape-string-regexp@1.0.5 deduped
+| | | `-- supports-color@5.5.0
+| | |   `-- has-flag@3.0.0
+| | `-- hexo-bunyan@2.0.0
+| |   +-- moment@2.24.0 deduped
+| |   +-- mv@2.1.1
+| |   | +-- mkdirp@0.5.1 deduped
+| |   | +-- ncp@2.0.0
+| |   | `-- rimraf@2.4.5
+| |   |   `-- glob@6.0.4
+| |   |     +-- inflight@1.0.6 deduped
+| |   |     +-- inherits@2.0.4 deduped
+| |   |     +-- minimatch@3.0.4 deduped
+| |   |     +-- once@1.4.0 deduped
+| |   |     `-- path-is-absolute@1.0.1 deduped
+| |   `-- safe-json-stringify@1.2.0
+| +-- hexo-util@1.8.1
+| | +-- bluebird@3.7.2 deduped
+| | +-- camel-case@4.1.1
+| | | +-- pascal-case@3.1.1
+| | | | +-- no-case@3.0.3
+| | | | | +-- lower-case@2.0.1
+| | | | | | `-- tslib@1.10.0 deduped
+| | | | | `-- tslib@1.10.0 deduped
+| | | | `-- tslib@1.10.0 deduped
+| | | `-- tslib@1.10.0
+| | +-- cross-spawn@7.0.1
+| | | +-- path-key@3.1.1
+| | | +-- shebang-command@2.0.0
+| | | | `-- shebang-regex@3.0.0
+| | | `-- which@2.0.2
+| | |   `-- isexe@2.0.0
+| | +-- deepmerge@4.2.2
+| | +-- highlight.js@9.18.1
+| | +-- htmlparser2@4.0.0
+| | | +-- domelementtype@2.0.1
+| | | +-- domhandler@3.0.0
+| | | | `-- domelementtype@2.0.1 deduped
+| | | +-- domutils@2.0.0
+| | | | +-- dom-serializer@0.2.2
+| | | | | +-- domelementtype@2.0.1 deduped
+| | | | | `-- entities@2.0.0 deduped
+| | | | +-- domelementtype@2.0.1 deduped
+| | | | `-- domhandler@3.0.0 deduped
+| | | `-- entities@2.0.0
+| | +-- punycode.js@2.1.0
+| | `-- striptags@3.1.1
+| +-- js-yaml@3.13.1
+| | +-- argparse@1.0.10
+| | | `-- sprintf-js@1.0.3 deduped
+| | `-- esprima@4.0.1
+| +-- lodash@4.17.15
+| +-- micromatch@4.0.2
+| | +-- braces@3.0.2
+| | | `-- fill-range@7.0.1
+| | |   `-- to-regex-range@5.0.1
+| | |     `-- is-number@7.0.0
+| | `-- picomatch@2.2.1
+| +-- moment@2.24.0
+| +-- moment-timezone@0.5.27
+| | `-- moment@2.24.0 deduped
+| +-- nunjucks@3.2.0
+| | +-- a-sync-waterfall@1.0.1
+| | +-- asap@2.0.6
+| | +-- chokidar@2.1.8
+| | | +-- anymatch@2.0.0
+| | | | +-- micromatch@3.1.10
+| | | | | +-- arr-diff@4.0.0
+| | | | | +-- array-unique@0.3.2 deduped
+| | | | | +-- braces@2.3.2 deduped
+| | | | | +-- define-property@2.0.2
+| | | | | | +-- is-descriptor@1.0.2
+| | | | | | | +-- is-accessor-descriptor@1.0.0
+| | | | | | | | `-- kind-of@6.0.3 deduped
+| | | | | | | +-- is-data-descriptor@1.0.0
+| | | | | | | | `-- kind-of@6.0.3 deduped
+| | | | | | | `-- kind-of@6.0.3 deduped
+| | | | | | `-- isobject@3.0.1 deduped
+| | | | | +-- extend-shallow@3.0.2
+| | | | | | +-- assign-symbols@1.0.0
+| | | | | | `-- is-extendable@1.0.1
+| | | | | |   `-- is-plain-object@2.0.4
+| | | | | |     `-- isobject@3.0.1 deduped
+| | | | | +-- extglob@2.0.4
+| | | | | | +-- array-unique@0.3.2 deduped
+| | | | | | +-- define-property@1.0.0
+| | | | | | | `-- is-descriptor@1.0.2
+| | | | | | |   +-- is-accessor-descriptor@1.0.0
+| | | | | | |   | `-- kind-of@6.0.3 deduped
+| | | | | | |   +-- is-data-descriptor@1.0.0
+| | | | | | |   | `-- kind-of@6.0.3 deduped
+| | | | | | |   `-- kind-of@6.0.3 deduped
+| | | | | | +-- expand-brackets@2.1.4
+| | | | | | | +-- debug@2.6.9 deduped
+| | | | | | | +-- define-property@0.2.5
+| | | | | | | | `-- is-descriptor@0.1.6 deduped
+| | | | | | | +-- extend-shallow@2.0.1
+| | | | | | | | `-- is-extendable@0.1.1 deduped
+| | | | | | | +-- posix-character-classes@0.1.1
+| | | | | | | +-- regex-not@1.0.2 deduped
+| | | | | | | +-- snapdragon@0.8.2 deduped
+| | | | | | | `-- to-regex@3.0.2 deduped
+| | | | | | +-- extend-shallow@2.0.1
+| | | | | | | `-- is-extendable@0.1.1 deduped
+| | | | | | +-- fragment-cache@0.2.1 deduped
+| | | | | | +-- regex-not@1.0.2 deduped
+| | | | | | +-- snapdragon@0.8.2 deduped
+| | | | | | `-- to-regex@3.0.2 deduped
+| | | | | +-- fragment-cache@0.2.1
+| | | | | | `-- map-cache@0.2.2 deduped
+| | | | | +-- kind-of@6.0.3
+| | | | | +-- nanomatch@1.2.13
+| | | | | | +-- arr-diff@4.0.0 deduped
+| | | | | | +-- array-unique@0.3.2 deduped
+| | | | | | +-- define-property@2.0.2 deduped
+| | | | | | +-- extend-shallow@3.0.2 deduped
+| | | | | | +-- fragment-cache@0.2.1 deduped
+| | | | | | +-- is-windows@1.0.2
+| | | | | | +-- kind-of@6.0.3 deduped
+| | | | | | +-- object.pick@1.3.0 deduped
+| | | | | | +-- regex-not@1.0.2 deduped
+| | | | | | +-- snapdragon@0.8.2 deduped
+| | | | | | `-- to-regex@3.0.2 deduped
+| | | | | +-- object.pick@1.3.0
+| | | | | | `-- isobject@3.0.1 deduped
+| | | | | +-- regex-not@1.0.2
+| | | | | | +-- extend-shallow@3.0.2 deduped
+| | | | | | `-- safe-regex@1.1.0 deduped
+| | | | | +-- snapdragon@0.8.2 deduped
+| | | | | `-- to-regex@3.0.2 deduped
+| | | | `-- normalize-path@2.1.1
+| | | |   `-- remove-trailing-separator@1.1.0
+| | | +-- async-each@1.0.3
+| | | +-- braces@2.3.2
+| | | | +-- arr-flatten@1.1.0
+| | | | +-- array-unique@0.3.2
+| | | | +-- extend-shallow@2.0.1
+| | | | | `-- is-extendable@0.1.1
+| | | | +-- fill-range@4.0.0
+| | | | | +-- extend-shallow@2.0.1
+| | | | | | `-- is-extendable@0.1.1 deduped
+| | | | | +-- is-number@3.0.0
+| | | | | | `-- kind-of@3.2.2
+| | | | | |   `-- is-buffer@1.1.6 deduped
+| | | | | +-- repeat-string@1.6.1
+| | | | | `-- to-regex-range@2.1.1
+| | | | |   +-- is-number@3.0.0 deduped
+| | | | |   `-- repeat-string@1.6.1 deduped
+| | | | +-- isobject@3.0.1
+| | | | +-- repeat-element@1.1.3
+| | | | +-- snapdragon@0.8.2
+| | | | | +-- base@0.11.2
+| | | | | | +-- cache-base@1.0.1
+| | | | | | | +-- collection-visit@1.0.0
+| | | | | | | | +-- map-visit@1.0.0
+| | | | | | | | | `-- object-visit@1.0.1 deduped
+| | | | | | | | `-- object-visit@1.0.1
+| | | | | | | |   `-- isobject@3.0.1 deduped
+| | | | | | | +-- component-emitter@1.3.0 deduped
+| | | | | | | +-- get-value@2.0.6
+| | | | | | | +-- has-value@1.0.0
+| | | | | | | | +-- get-value@2.0.6 deduped
+| | | | | | | | +-- has-values@1.0.0
+| | | | | | | | | +-- is-number@3.0.0
+| | | | | | | | | | `-- kind-of@3.2.2
+| | | | | | | | | |   `-- is-buffer@1.1.6 deduped
+| | | | | | | | | `-- kind-of@4.0.0
+| | | | | | | | |   `-- is-buffer@1.1.6 deduped
+| | | | | | | | `-- isobject@3.0.1 deduped
+| | | | | | | +-- isobject@3.0.1 deduped
+| | | | | | | +-- set-value@2.0.1
+| | | | | | | | +-- extend-shallow@2.0.1
+| | | | | | | | | `-- is-extendable@0.1.1 deduped
+| | | | | | | | +-- is-extendable@0.1.1 deduped
+| | | | | | | | +-- is-plain-object@2.0.4 deduped
+| | | | | | | | `-- split-string@3.1.0 deduped
+| | | | | | | +-- to-object-path@0.3.0
+| | | | | | | | `-- kind-of@3.2.2
+| | | | | | | |   `-- is-buffer@1.1.6 deduped
+| | | | | | | +-- union-value@1.0.1
+| | | | | | | | +-- arr-union@3.1.0 deduped
+| | | | | | | | +-- get-value@2.0.6 deduped
+| | | | | | | | +-- is-extendable@0.1.1 deduped
+| | | | | | | | `-- set-value@2.0.1 deduped
+| | | | | | | `-- unset-value@1.0.0
+| | | | | | |   +-- has-value@0.3.1
+| | | | | | |   | +-- get-value@2.0.6 deduped
+| | | | | | |   | +-- has-values@0.1.4
+| | | | | | |   | `-- isobject@2.1.0
+| | | | | | |   |   `-- isarray@1.0.0 deduped
+| | | | | | |   `-- isobject@3.0.1 deduped
+| | | | | | +-- class-utils@0.3.6
+| | | | | | | +-- arr-union@3.1.0
+| | | | | | | +-- define-property@0.2.5
+| | | | | | | | `-- is-descriptor@0.1.6 deduped
+| | | | | | | +-- isobject@3.0.1 deduped
+| | | | | | | `-- static-extend@0.1.2
+| | | | | | |   +-- define-property@0.2.5
+| | | | | | |   | `-- is-descriptor@0.1.6 deduped
+| | | | | | |   `-- object-copy@0.1.0
+| | | | | | |     +-- copy-descriptor@0.1.1
+| | | | | | |     +-- define-property@0.2.5
+| | | | | | |     | `-- is-descriptor@0.1.6 deduped
+| | | | | | |     `-- kind-of@3.2.2
+| | | | | | |       `-- is-buffer@1.1.6 deduped
+| | | | | | +-- component-emitter@1.3.0
+| | | | | | +-- define-property@1.0.0
+| | | | | | | `-- is-descriptor@1.0.2
+| | | | | | |   +-- is-accessor-descriptor@1.0.0
+| | | | | | |   | `-- kind-of@6.0.3 deduped
+| | | | | | |   +-- is-data-descriptor@1.0.0
+| | | | | | |   | `-- kind-of@6.0.3 deduped
+| | | | | | |   `-- kind-of@6.0.3 deduped
+| | | | | | +-- isobject@3.0.1 deduped
+| | | | | | +-- mixin-deep@1.3.2
+| | | | | | | +-- for-in@1.0.2
+| | | | | | | `-- is-extendable@1.0.1
+| | | | | | |   `-- is-plain-object@2.0.4 deduped
+| | | | | | `-- pascalcase@0.1.1
+| | | | | +-- debug@2.6.9 deduped
+| | | | | +-- define-property@0.2.5
+| | | | | | `-- is-descriptor@0.1.6
+| | | | | |   +-- is-accessor-descriptor@0.1.6
+| | | | | |   | `-- kind-of@3.2.2
+| | | | | |   |   `-- is-buffer@1.1.6 deduped
+| | | | | |   +-- is-data-descriptor@0.1.4
+| | | | | |   | `-- kind-of@3.2.2
+| | | | | |   |   `-- is-buffer@1.1.6 deduped
+| | | | | |   `-- kind-of@5.1.0
+| | | | | +-- extend-shallow@2.0.1
+| | | | | | `-- is-extendable@0.1.1 deduped
+| | | | | +-- map-cache@0.2.2
+| | | | | +-- source-map@0.5.7 deduped
+| | | | | +-- source-map-resolve@0.5.3 deduped
+| | | | | `-- use@3.1.1
+| | | | +-- snapdragon-node@2.1.1
+| | | | | +-- define-property@1.0.0
+| | | | | | `-- is-descriptor@1.0.2
+| | | | | |   +-- is-accessor-descriptor@1.0.0
+| | | | | |   | `-- kind-of@6.0.3 deduped
+| | | | | |   +-- is-data-descriptor@1.0.0
+| | | | | |   | `-- kind-of@6.0.3 deduped
+| | | | | |   `-- kind-of@6.0.3 deduped
+| | | | | +-- isobject@3.0.1 deduped
+| | | | | `-- snapdragon-util@3.0.1
+| | | | |   `-- kind-of@3.2.2
+| | | | |     `-- is-buffer@1.1.6 deduped
+| | | | +-- split-string@3.1.0
+| | | | | `-- extend-shallow@3.0.2 deduped
+| | | | `-- to-regex@3.0.2
+| | | |   +-- define-property@2.0.2 deduped
+| | | |   +-- extend-shallow@3.0.2 deduped
+| | | |   +-- regex-not@1.0.2 deduped
+| | | |   `-- safe-regex@1.1.0
+| | | |     `-- ret@0.1.15
+| | | +-- UNMET OPTIONAL DEPENDENCY fsevents@1.2.11
+| | | | `-- UNMET OPTIONAL DEPENDENCY node-pre-gyp@0.14.0
+| | | |   +-- UNMET OPTIONAL DEPENDENCY detect-libc@1.0.3
+| | | |   +-- UNMET OPTIONAL DEPENDENCY mkdirp@0.5.1
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY minimist@0.0.8
+| | | |   +-- UNMET OPTIONAL DEPENDENCY needle@2.4.0
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY debug@3.2.6
+| | | |   | | `-- UNMET OPTIONAL DEPENDENCY ms@2.1.2
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY iconv-lite@0.4.24
+| | | |   | | `-- UNMET OPTIONAL DEPENDENCY safer-buffer@2.1.2
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY sax@1.2.4
+| | | |   +-- UNMET OPTIONAL DEPENDENCY nopt@4.0.1
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY abbrev@1.1.1
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY osenv@0.1.5
+| | | |   |   +-- UNMET OPTIONAL DEPENDENCY os-homedir@1.0.2
+| | | |   |   `-- UNMET OPTIONAL DEPENDENCY os-tmpdir@1.0.2
+| | | |   +-- UNMET OPTIONAL DEPENDENCY npm-packlist@1.4.7
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY ignore-walk@3.0.3
+| | | |   | | `-- UNMET OPTIONAL DEPENDENCY minimatch@3.0.4
+| | | |   | |   `-- UNMET OPTIONAL DEPENDENCY brace-expansion@1.1.11
+| | | |   | |     +-- UNMET OPTIONAL DEPENDENCY balanced-match@1.0.0
+| | | |   | |     `-- UNMET OPTIONAL DEPENDENCY concat-map@0.0.1
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY npm-bundled@1.1.1
+| | | |   |   `-- UNMET OPTIONAL DEPENDENCY npm-normalize-package-bin@1.0.1
+| | | |   +-- UNMET OPTIONAL DEPENDENCY npmlog@4.1.2
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY are-we-there-yet@1.1.5
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY delegates@1.0.0
+| | | |   | | `-- UNMET OPTIONAL DEPENDENCY readable-stream@2.3.6
+| | | |   | |   +-- UNMET OPTIONAL DEPENDENCY core-util-is@1.0.2
+| | | |   | |   +-- UNMET OPTIONAL DEPENDENCY inherits@2.0.4
+| | | |   | |   +-- UNMET OPTIONAL DEPENDENCY isarray@1.0.0
+| | | |   | |   +-- UNMET OPTIONAL DEPENDENCY process-nextick-args@2.0.1
+| | | |   | |   +-- UNMET OPTIONAL DEPENDENCY safe-buffer@5.1.2
+| | | |   | |   +-- UNMET OPTIONAL DEPENDENCY string_decoder@1.1.1
+| | | |   | |   | `-- UNMET OPTIONAL DEPENDENCY safe-buffer@5.1.2
+| | | |   | |   `-- UNMET OPTIONAL DEPENDENCY util-deprecate@1.0.2
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY console-control-strings@1.1.0
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY gauge@2.7.4
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY aproba@1.2.0
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY console-control-strings@1.1.0
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY has-unicode@2.0.1
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY object-assign@4.1.1
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY signal-exit@3.0.2
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY string-width@1.0.2
+| | | |   | | | +-- UNMET OPTIONAL DEPENDENCY code-point-at@1.1.0
+| | | |   | | | +-- UNMET OPTIONAL DEPENDENCY is-fullwidth-code-point@1.0.0
+| | | |   | | | | `-- UNMET OPTIONAL DEPENDENCY number-is-nan@1.0.1
+| | | |   | | | `-- UNMET OPTIONAL DEPENDENCY strip-ansi@3.0.1
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY strip-ansi@3.0.1
+| | | |   | | | `-- UNMET OPTIONAL DEPENDENCY ansi-regex@2.1.1
+| | | |   | | `-- UNMET OPTIONAL DEPENDENCY wide-align@1.1.3
+| | | |   | |   `-- UNMET OPTIONAL DEPENDENCY string-width@1.0.2
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY set-blocking@2.0.0
+| | | |   +-- UNMET OPTIONAL DEPENDENCY rc@1.2.8
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY deep-extend@0.6.0
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY ini@1.3.5
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY minimist@1.2.0
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY strip-json-comments@2.0.1
+| | | |   +-- UNMET OPTIONAL DEPENDENCY rimraf@2.7.1
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY glob@7.1.6
+| | | |   |   +-- UNMET OPTIONAL DEPENDENCY fs.realpath@1.0.0
+| | | |   |   +-- UNMET OPTIONAL DEPENDENCY inflight@1.0.6
+| | | |   |   | +-- UNMET OPTIONAL DEPENDENCY once@1.4.0
+| | | |   |   | `-- UNMET OPTIONAL DEPENDENCY wrappy@1.0.2
+| | | |   |   +-- UNMET OPTIONAL DEPENDENCY inherits@2.0.4
+| | | |   |   +-- UNMET OPTIONAL DEPENDENCY minimatch@3.0.4
+| | | |   |   +-- UNMET OPTIONAL DEPENDENCY once@1.4.0
+| | | |   |   | `-- UNMET OPTIONAL DEPENDENCY wrappy@1.0.2
+| | | |   |   `-- UNMET OPTIONAL DEPENDENCY path-is-absolute@1.0.1
+| | | |   +-- UNMET OPTIONAL DEPENDENCY semver@5.7.1
+| | | |   `-- UNMET OPTIONAL DEPENDENCY tar@4.4.13
+| | | |     +-- UNMET OPTIONAL DEPENDENCY chownr@1.1.3
+| | | |     +-- UNMET OPTIONAL DEPENDENCY fs-minipass@1.2.7
+| | | |     | `-- UNMET OPTIONAL DEPENDENCY minipass@2.9.0
+| | | |     +-- UNMET OPTIONAL DEPENDENCY minipass@2.9.0
+| | | |     | +-- UNMET OPTIONAL DEPENDENCY safe-buffer@5.1.2
+| | | |     | `-- UNMET OPTIONAL DEPENDENCY yallist@3.1.1
+| | | |     +-- UNMET OPTIONAL DEPENDENCY minizlib@1.3.3
+| | | |     | `-- UNMET OPTIONAL DEPENDENCY minipass@2.9.0
+| | | |     +-- UNMET OPTIONAL DEPENDENCY mkdirp@0.5.1
+| | | |     +-- UNMET OPTIONAL DEPENDENCY safe-buffer@5.1.2
+| | | |     `-- UNMET OPTIONAL DEPENDENCY yallist@3.1.1
+| | | +-- glob-parent@3.1.0
+| | | | +-- is-glob@3.1.0
+| | | | | `-- is-extglob@2.1.1 deduped
+| | | | `-- path-dirname@1.0.2
+| | | +-- inherits@2.0.4
+| | | +-- is-binary-path@1.0.1
+| | | | `-- binary-extensions@1.13.1
+| | | +-- is-glob@4.0.1 deduped
+| | | +-- normalize-path@3.0.0 deduped
+| | | +-- path-is-absolute@1.0.1
+| | | +-- readdirp@2.2.1
+| | | | +-- graceful-fs@4.2.3 deduped
+| | | | +-- micromatch@3.1.10 deduped
+| | | | `-- readable-stream@2.3.7
+| | | |   +-- core-util-is@1.0.2
+| | | |   +-- inherits@2.0.4 deduped
+| | | |   +-- isarray@1.0.0
+| | | |   +-- process-nextick-args@2.0.1
+| | | |   +-- safe-buffer@5.1.2 deduped
+| | | |   +-- string_decoder@1.1.1
+| | | |   | `-- safe-buffer@5.1.2 deduped
+| | | |   `-- util-deprecate@1.0.2
+| | | `-- upath@1.2.0
+| | `-- yargs@3.32.0
+| |   +-- camelcase@2.1.1
+| |   +-- cliui@3.2.0
+| |   | +-- string-width@1.0.2 deduped
+| |   | +-- strip-ansi@3.0.1
+| |   | | `-- ansi-regex@2.1.1
+| |   | `-- wrap-ansi@2.1.0
+| |   |   +-- string-width@1.0.2 deduped
+| |   |   `-- strip-ansi@3.0.1
+| |   |     `-- ansi-regex@2.1.1 deduped
+| |   +-- decamelize@1.2.0
+| |   +-- os-locale@1.4.0
+| |   | `-- lcid@1.0.0
+| |   |   `-- invert-kv@1.0.0
+| |   +-- string-width@1.0.2
+| |   | +-- code-point-at@1.1.0
+| |   | +-- is-fullwidth-code-point@1.0.0
+| |   | | `-- number-is-nan@1.0.1
+| |   | `-- strip-ansi@3.0.1
+| |   |   `-- ansi-regex@2.1.1 deduped
+| |   +-- window-size@0.1.4
+| |   `-- y18n@3.2.1
+| +-- pretty-hrtime@1.0.3
+| +-- resolve@1.15.1
+| | `-- path-parse@1.0.6
+| +-- strip-ansi@6.0.0
+| | `-- ansi-regex@5.0.0
+| +-- strip-indent@3.0.0
+| | `-- min-indent@1.0.0
+| +-- swig-extras@0.0.1
+| | `-- markdown@0.5.0
+| |   `-- nopt@2.1.2
+| |     `-- abbrev@1.1.1 deduped
+| +-- swig-templates@2.0.3
+| | +-- optimist@0.6.1
+| | | +-- minimist@0.0.10
+| | | `-- wordwrap@0.0.3
+| | `-- uglify-js@2.6.0
+| |   +-- async@0.2.10
+| |   +-- source-map@0.5.7
+| |   +-- uglify-to-browserify@1.0.2
+| |   `-- yargs@3.10.0
+| |     +-- camelcase@1.2.1
+| |     +-- cliui@2.1.0
+| |     | +-- center-align@0.1.3
+| |     | | +-- align-text@0.1.4
+| |     | | | +-- kind-of@3.2.2
+| |     | | | | `-- is-buffer@1.1.6 deduped
+| |     | | | +-- longest@1.0.1
+| |     | | | `-- repeat-string@1.6.1 deduped
+| |     | | `-- lazy-cache@1.0.4
+| |     | +-- right-align@0.1.3
+| |     | | `-- align-text@0.1.4 deduped
+| |     | `-- wordwrap@0.0.2
+| |     +-- decamelize@1.2.0 deduped
+| |     `-- window-size@0.1.0
+| +-- text-table@0.2.0
+| +-- tildify@2.0.0
+| +-- titlecase@1.1.3
+| `-- warehouse@3.0.2
+|   +-- bluebird@3.7.2 deduped
+|   +-- cuid@2.1.8
+|   +-- graceful-fs@4.2.3 deduped
+|   +-- is-plain-object@3.0.0
+|   | `-- isobject@4.0.0
+|   +-- JSONStream@1.3.5
+|   | +-- jsonparse@1.3.1
+|   | `-- through@2.3.8
+|   `-- rfdc@1.1.4
++-- hexo-abbrlink@2.0.5
+| +-- hexo-front-matter@0.2.3
+| | `-- js-yaml@3.13.1 deduped
+| `-- hexo-fs@0.2.3
+|   +-- bluebird@3.7.2 deduped
+|   +-- chokidar@1.7.0
+|   | +-- anymatch@1.3.2
+|   | | +-- micromatch@2.3.11
+|   | | | +-- arr-diff@2.0.0
+|   | | | | `-- arr-flatten@1.1.0 deduped
+|   | | | +-- array-unique@0.2.1
+|   | | | +-- braces@1.8.5
+|   | | | | +-- expand-range@1.8.2
+|   | | | | | `-- fill-range@2.2.4
+|   | | | | |   +-- is-number@2.1.0
+|   | | | | |   | `-- kind-of@3.2.2
+|   | | | | |   |   `-- is-buffer@1.1.6 deduped
+|   | | | | |   +-- isobject@2.1.0
+|   | | | | |   | `-- isarray@1.0.0 deduped
+|   | | | | |   +-- randomatic@3.1.1
+|   | | | | |   | +-- is-number@4.0.0
+|   | | | | |   | +-- kind-of@6.0.3 deduped
+|   | | | | |   | `-- math-random@1.0.4
+|   | | | | |   +-- repeat-element@1.1.3 deduped
+|   | | | | |   `-- repeat-string@1.6.1 deduped
+|   | | | | +-- preserve@0.2.0
+|   | | | | `-- repeat-element@1.1.3 deduped
+|   | | | +-- expand-brackets@0.1.5
+|   | | | | `-- is-posix-bracket@0.1.1
+|   | | | +-- extglob@0.3.2
+|   | | | | `-- is-extglob@1.0.0 deduped
+|   | | | +-- filename-regex@2.0.1
+|   | | | +-- is-extglob@1.0.0 deduped
+|   | | | +-- is-glob@2.0.1 deduped
+|   | | | +-- kind-of@3.2.2
+|   | | | | `-- is-buffer@1.1.6
+|   | | | +-- normalize-path@2.1.1 deduped
+|   | | | +-- object.omit@2.0.1
+|   | | | | +-- for-own@0.1.5
+|   | | | | | `-- for-in@1.0.2 deduped
+|   | | | | `-- is-extendable@0.1.1 deduped
+|   | | | +-- parse-glob@3.0.4
+|   | | | | +-- glob-base@0.3.0
+|   | | | | | +-- glob-parent@2.0.0
+|   | | | | | | `-- is-glob@2.0.1 deduped
+|   | | | | | `-- is-glob@2.0.1
+|   | | | | |   `-- is-extglob@1.0.0
+|   | | | | +-- is-dotfile@1.0.3
+|   | | | | +-- is-extglob@1.0.0
+|   | | | | `-- is-glob@2.0.1
+|   | | | |   `-- is-extglob@1.0.0 deduped
+|   | | | `-- regex-cache@0.4.4
+|   | | |   `-- is-equal-shallow@0.1.3
+|   | | |     `-- is-primitive@2.0.0
+|   | | `-- normalize-path@2.1.1
+|   | |   `-- remove-trailing-separator@1.1.0 deduped
+|   | +-- async-each@1.0.3 deduped
+|   | +-- UNMET OPTIONAL DEPENDENCY fsevents@1.2.11
+|   | | `-- UNMET OPTIONAL DEPENDENCY node-pre-gyp@0.14.0
+|   | |   +-- UNMET OPTIONAL DEPENDENCY detect-libc@1.0.3
+|   | |   +-- UNMET OPTIONAL DEPENDENCY mkdirp@0.5.1
+|   | |   | `-- UNMET OPTIONAL DEPENDENCY minimist@0.0.8
+|   | |   +-- UNMET OPTIONAL DEPENDENCY needle@2.4.0
+|   | |   | +-- UNMET OPTIONAL DEPENDENCY debug@3.2.6
+|   | |   | | `-- UNMET OPTIONAL DEPENDENCY ms@2.1.2
+|   | |   | +-- UNMET OPTIONAL DEPENDENCY iconv-lite@0.4.24
+|   | |   | | `-- UNMET OPTIONAL DEPENDENCY safer-buffer@2.1.2
+|   | |   | `-- UNMET OPTIONAL DEPENDENCY sax@1.2.4
+|   | |   +-- UNMET OPTIONAL DEPENDENCY nopt@4.0.1
+|   | |   | +-- UNMET OPTIONAL DEPENDENCY abbrev@1.1.1
+|   | |   | `-- UNMET OPTIONAL DEPENDENCY osenv@0.1.5
+|   | |   |   +-- UNMET OPTIONAL DEPENDENCY os-homedir@1.0.2
+|   | |   |   `-- UNMET OPTIONAL DEPENDENCY os-tmpdir@1.0.2
+|   | |   +-- UNMET OPTIONAL DEPENDENCY npm-packlist@1.4.7
+|   | |   | +-- UNMET OPTIONAL DEPENDENCY ignore-walk@3.0.3
+|   | |   | | `-- UNMET OPTIONAL DEPENDENCY minimatch@3.0.4
+|   | |   | |   `-- UNMET OPTIONAL DEPENDENCY brace-expansion@1.1.11
+|   | |   | |     +-- UNMET OPTIONAL DEPENDENCY balanced-match@1.0.0
+|   | |   | |     `-- UNMET OPTIONAL DEPENDENCY concat-map@0.0.1
+|   | |   | `-- UNMET OPTIONAL DEPENDENCY npm-bundled@1.1.1
+|   | |   |   `-- UNMET OPTIONAL DEPENDENCY npm-normalize-package-bin@1.0.1
+|   | |   +-- UNMET OPTIONAL DEPENDENCY npmlog@4.1.2
+|   | |   | +-- UNMET OPTIONAL DEPENDENCY are-we-there-yet@1.1.5
+|   | |   | | +-- UNMET OPTIONAL DEPENDENCY delegates@1.0.0
+|   | |   | | `-- UNMET OPTIONAL DEPENDENCY readable-stream@2.3.6
+|   | |   | |   +-- UNMET OPTIONAL DEPENDENCY core-util-is@1.0.2
+|   | |   | |   +-- UNMET OPTIONAL DEPENDENCY inherits@2.0.4
+|   | |   | |   +-- UNMET OPTIONAL DEPENDENCY isarray@1.0.0
+|   | |   | |   +-- UNMET OPTIONAL DEPENDENCY process-nextick-args@2.0.1
+|   | |   | |   +-- UNMET OPTIONAL DEPENDENCY safe-buffer@5.1.2
+|   | |   | |   +-- UNMET OPTIONAL DEPENDENCY string_decoder@1.1.1
+|   | |   | |   | `-- UNMET OPTIONAL DEPENDENCY safe-buffer@5.1.2
+|   | |   | |   `-- UNMET OPTIONAL DEPENDENCY util-deprecate@1.0.2
+|   | |   | +-- UNMET OPTIONAL DEPENDENCY console-control-strings@1.1.0
+|   | |   | +-- UNMET OPTIONAL DEPENDENCY gauge@2.7.4
+|   | |   | | +-- UNMET OPTIONAL DEPENDENCY aproba@1.2.0
+|   | |   | | +-- UNMET OPTIONAL DEPENDENCY console-control-strings@1.1.0
+|   | |   | | +-- UNMET OPTIONAL DEPENDENCY has-unicode@2.0.1
+|   | |   | | +-- UNMET OPTIONAL DEPENDENCY object-assign@4.1.1
+|   | |   | | +-- UNMET OPTIONAL DEPENDENCY signal-exit@3.0.2
+|   | |   | | +-- UNMET OPTIONAL DEPENDENCY string-width@1.0.2
+|   | |   | | | +-- UNMET OPTIONAL DEPENDENCY code-point-at@1.1.0
+|   | |   | | | +-- UNMET OPTIONAL DEPENDENCY is-fullwidth-code-point@1.0.0
+|   | |   | | | | `-- UNMET OPTIONAL DEPENDENCY number-is-nan@1.0.1
+|   | |   | | | `-- UNMET OPTIONAL DEPENDENCY strip-ansi@3.0.1
+|   | |   | | +-- UNMET OPTIONAL DEPENDENCY strip-ansi@3.0.1
+|   | |   | | | `-- UNMET OPTIONAL DEPENDENCY ansi-regex@2.1.1
+|   | |   | | `-- UNMET OPTIONAL DEPENDENCY wide-align@1.1.3
+|   | |   | |   `-- UNMET OPTIONAL DEPENDENCY string-width@1.0.2
+|   | |   | `-- UNMET OPTIONAL DEPENDENCY set-blocking@2.0.0
+|   | |   +-- UNMET OPTIONAL DEPENDENCY rc@1.2.8
+|   | |   | +-- UNMET OPTIONAL DEPENDENCY deep-extend@0.6.0
+|   | |   | +-- UNMET OPTIONAL DEPENDENCY ini@1.3.5
+|   | |   | +-- UNMET OPTIONAL DEPENDENCY minimist@1.2.0
+|   | |   | `-- UNMET OPTIONAL DEPENDENCY strip-json-comments@2.0.1
+|   | |   +-- UNMET OPTIONAL DEPENDENCY rimraf@2.7.1
+|   | |   | `-- UNMET OPTIONAL DEPENDENCY glob@7.1.6
+|   | |   |   +-- UNMET OPTIONAL DEPENDENCY fs.realpath@1.0.0
+|   | |   |   +-- UNMET OPTIONAL DEPENDENCY inflight@1.0.6
+|   | |   |   | +-- UNMET OPTIONAL DEPENDENCY once@1.4.0
+|   | |   |   | `-- UNMET OPTIONAL DEPENDENCY wrappy@1.0.2
+|   | |   |   +-- UNMET OPTIONAL DEPENDENCY inherits@2.0.4
+|   | |   |   +-- UNMET OPTIONAL DEPENDENCY minimatch@3.0.4
+|   | |   |   +-- UNMET OPTIONAL DEPENDENCY once@1.4.0
+|   | |   |   | `-- UNMET OPTIONAL DEPENDENCY wrappy@1.0.2
+|   | |   |   `-- UNMET OPTIONAL DEPENDENCY path-is-absolute@1.0.1
+|   | |   +-- UNMET OPTIONAL DEPENDENCY semver@5.7.1
+|   | |   `-- UNMET OPTIONAL DEPENDENCY tar@4.4.13
+|   | |     +-- UNMET OPTIONAL DEPENDENCY chownr@1.1.3
+|   | |     +-- UNMET OPTIONAL DEPENDENCY fs-minipass@1.2.7
+|   | |     | `-- UNMET OPTIONAL DEPENDENCY minipass@2.9.0
+|   | |     +-- UNMET OPTIONAL DEPENDENCY minipass@2.9.0
+|   | |     | +-- UNMET OPTIONAL DEPENDENCY safe-buffer@5.1.2
+|   | |     | `-- UNMET OPTIONAL DEPENDENCY yallist@3.1.1
+|   | |     +-- UNMET OPTIONAL DEPENDENCY minizlib@1.3.3
+|   | |     | `-- UNMET OPTIONAL DEPENDENCY minipass@2.9.0
+|   | |     +-- UNMET OPTIONAL DEPENDENCY mkdirp@0.5.1
+|   | |     +-- UNMET OPTIONAL DEPENDENCY safe-buffer@5.1.2
+|   | |     `-- UNMET OPTIONAL DEPENDENCY yallist@3.1.1
+|   | +-- glob-parent@2.0.0
+|   | | `-- is-glob@2.0.1 deduped
+|   | +-- inherits@2.0.4 deduped
+|   | +-- is-binary-path@1.0.1
+|   | | `-- binary-extensions@1.13.1
+|   | +-- is-glob@2.0.1
+|   | | `-- is-extglob@1.0.0
+|   | +-- path-is-absolute@1.0.1 deduped
+|   | `-- readdirp@2.2.1
+|   |   +-- graceful-fs@4.2.3 deduped
+|   |   +-- micromatch@3.1.10
+|   |   | +-- arr-diff@4.0.0
+|   |   | +-- array-unique@0.3.2
+|   |   | +-- braces@2.3.2
+|   |   | | +-- arr-flatten@1.1.0 deduped
+|   |   | | +-- array-unique@0.3.2 deduped
+|   |   | | +-- extend-shallow@2.0.1
+|   |   | | | `-- is-extendable@0.1.1 deduped
+|   |   | | +-- fill-range@4.0.0
+|   |   | | | +-- extend-shallow@2.0.1
+|   |   | | | | `-- is-extendable@0.1.1 deduped
+|   |   | | | +-- is-number@3.0.0
+|   |   | | | | `-- kind-of@3.2.2 deduped
+|   |   | | | +-- repeat-string@1.6.1 deduped
+|   |   | | | `-- to-regex-range@2.1.1
+|   |   | | |   +-- is-number@3.0.0 deduped
+|   |   | | |   `-- repeat-string@1.6.1 deduped
+|   |   | | +-- isobject@3.0.1 deduped
+|   |   | | +-- repeat-element@1.1.3 deduped
+|   |   | | +-- snapdragon@0.8.2 deduped
+|   |   | | +-- snapdragon-node@2.1.1 deduped
+|   |   | | +-- split-string@3.1.0 deduped
+|   |   | | `-- to-regex@3.0.2 deduped
+|   |   | +-- define-property@2.0.2 deduped
+|   |   | +-- extend-shallow@3.0.2 deduped
+|   |   | +-- extglob@2.0.4
+|   |   | | +-- array-unique@0.3.2 deduped
+|   |   | | +-- define-property@1.0.0
+|   |   | | | `-- is-descriptor@1.0.2
+|   |   | | |   +-- is-accessor-descriptor@1.0.0
+|   |   | | |   | `-- kind-of@6.0.3
+|   |   | | |   +-- is-data-descriptor@1.0.0
+|   |   | | |   | `-- kind-of@6.0.3
+|   |   | | |   `-- kind-of@6.0.3
+|   |   | | +-- expand-brackets@2.1.4
+|   |   | | | +-- debug@2.6.9 deduped
+|   |   | | | +-- define-property@0.2.5
+|   |   | | | | `-- is-descriptor@0.1.6
+|   |   | | | |   +-- is-accessor-descriptor@0.1.6
+|   |   | | | |   | `-- kind-of@3.2.2
+|   |   | | | |   |   `-- is-buffer@1.1.6 deduped
+|   |   | | | |   +-- is-data-descriptor@0.1.4
+|   |   | | | |   | `-- kind-of@3.2.2
+|   |   | | | |   |   `-- is-buffer@1.1.6 deduped
+|   |   | | | |   `-- kind-of@5.1.0
+|   |   | | | +-- extend-shallow@2.0.1
+|   |   | | | | `-- is-extendable@0.1.1 deduped
+|   |   | | | +-- posix-character-classes@0.1.1 deduped
+|   |   | | | +-- regex-not@1.0.2 deduped
+|   |   | | | +-- snapdragon@0.8.2 deduped
+|   |   | | | `-- to-regex@3.0.2 deduped
+|   |   | | +-- extend-shallow@2.0.1
+|   |   | | | `-- is-extendable@0.1.1 deduped
+|   |   | | +-- fragment-cache@0.2.1 deduped
+|   |   | | +-- regex-not@1.0.2 deduped
+|   |   | | +-- snapdragon@0.8.2 deduped
+|   |   | | `-- to-regex@3.0.2 deduped
+|   |   | +-- fragment-cache@0.2.1 deduped
+|   |   | +-- kind-of@6.0.3
+|   |   | +-- nanomatch@1.2.13 deduped
+|   |   | +-- object.pick@1.3.0 deduped
+|   |   | +-- regex-not@1.0.2 deduped
+|   |   | +-- snapdragon@0.8.2 deduped
+|   |   | `-- to-regex@3.0.2 deduped
+|   |   `-- readable-stream@2.3.7 deduped
+|   +-- escape-string-regexp@1.0.5
+|   `-- graceful-fs@4.2.3 deduped
++-- hexo-filter-github-emojis@2.1.0
+| +-- jsdom@15.2.1
+| | +-- abab@2.0.3
+| | +-- acorn@7.1.0 deduped
+| | +-- acorn-globals@4.3.4
+| | | +-- acorn@6.4.0
+| | | `-- acorn-walk@6.2.0
+| | +-- array-equal@1.0.0
+| | +-- cssom@0.4.4
+| | +-- cssstyle@2.2.0
+| | | `-- cssom@0.3.8
+| | +-- data-urls@1.1.0
+| | | +-- abab@2.0.3 deduped
+| | | +-- whatwg-mimetype@2.3.0 deduped
+| | | `-- whatwg-url@7.1.0 deduped
+| | +-- domexception@1.0.1
+| | | `-- webidl-conversions@4.0.2 deduped
+| | +-- escodegen@1.14.1
+| | | +-- esprima@4.0.1 deduped
+| | | +-- estraverse@4.3.0
+| | | +-- esutils@2.0.3
+| | | +-- optionator@0.8.3
+| | | | +-- deep-is@0.1.3
+| | | | +-- fast-levenshtein@2.0.6
+| | | | +-- levn@0.3.0
+| | | | | +-- prelude-ls@1.1.2 deduped
+| | | | | `-- type-check@0.3.2 deduped
+| | | | +-- prelude-ls@1.1.2
+| | | | +-- type-check@0.3.2
+| | | | | `-- prelude-ls@1.1.2 deduped
+| | | | `-- word-wrap@1.2.3
+| | | `-- source-map@0.6.1
+| | +-- html-encoding-sniffer@1.0.2
+| | | `-- whatwg-encoding@1.0.5 deduped
+| | +-- nwsapi@2.2.0
+| | +-- parse5@5.1.0
+| | +-- pn@1.1.0
+| | +-- request@2.88.2 deduped
+| | +-- request-promise-native@1.0.8
+| | | +-- request-promise-core@1.1.3
+| | | | `-- lodash@4.17.15 deduped
+| | | +-- stealthy-require@1.1.1
+| | | `-- tough-cookie@2.5.0
+| | |   +-- psl@1.7.0 deduped
+| | |   `-- punycode@2.1.1 deduped
+| | +-- saxes@3.1.11
+| | | `-- xmlchars@2.2.0
+| | +-- symbol-tree@3.2.4
+| | +-- tough-cookie@3.0.1
+| | | +-- ip-regex@2.1.0
+| | | +-- psl@1.7.0
+| | | `-- punycode@2.1.1
+| | +-- w3c-hr-time@1.0.1
+| | | `-- browser-process-hrtime@0.1.3
+| | +-- w3c-xmlserializer@1.1.2
+| | | +-- domexception@1.0.1 deduped
+| | | +-- webidl-conversions@4.0.2 deduped
+| | | `-- xml-name-validator@3.0.0 deduped
+| | +-- webidl-conversions@4.0.2
+| | +-- whatwg-encoding@1.0.5
+| | | `-- iconv-lite@0.4.24
+| | |   `-- safer-buffer@2.1.2 deduped
+| | +-- whatwg-mimetype@2.3.0
+| | +-- whatwg-url@7.1.0
+| | | +-- lodash.sortby@4.7.0
+| | | +-- tr46@1.0.1
+| | | | `-- punycode@2.1.1 deduped
+| | | `-- webidl-conversions@4.0.2 deduped
+| | +-- ws@7.2.1
+| | `-- xml-name-validator@3.0.0
+| +-- lodash@4.17.15 deduped
+| +-- random-ua@0.0.6
+| `-- request@2.88.2
+|   +-- aws-sign2@0.7.0
+|   +-- aws4@1.9.1
+|   +-- caseless@0.12.0
+|   +-- combined-stream@1.0.8
+|   | `-- delayed-stream@1.0.0
+|   +-- extend@3.0.2
+|   +-- forever-agent@0.6.1
+|   +-- form-data@2.3.3
+|   | +-- asynckit@0.4.0
+|   | +-- combined-stream@1.0.8 deduped
+|   | `-- mime-types@2.1.26 deduped
+|   +-- har-validator@5.1.3
+|   | +-- ajv@6.12.0
+|   | | +-- fast-deep-equal@3.1.1
+|   | | +-- fast-json-stable-stringify@2.1.0
+|   | | +-- json-schema-traverse@0.4.1
+|   | | `-- uri-js@4.2.2
+|   | |   `-- punycode@2.1.1 deduped
+|   | `-- har-schema@2.0.0
+|   +-- http-signature@1.2.0
+|   | +-- assert-plus@1.0.0
+|   | +-- jsprim@1.4.1
+|   | | +-- assert-plus@1.0.0 deduped
+|   | | +-- extsprintf@1.3.0
+|   | | +-- json-schema@0.2.3
+|   | | `-- verror@1.10.0
+|   | |   +-- assert-plus@1.0.0 deduped
+|   | |   +-- core-util-is@1.0.2 deduped
+|   | |   `-- extsprintf@1.3.0 deduped
+|   | `-- sshpk@1.16.1
+|   |   +-- asn1@0.2.4
+|   |   | `-- safer-buffer@2.1.2 deduped
+|   |   +-- assert-plus@1.0.0 deduped
+|   |   +-- bcrypt-pbkdf@1.0.2
+|   |   | `-- tweetnacl@0.14.5 deduped
+|   |   +-- dashdash@1.14.1
+|   |   | `-- assert-plus@1.0.0 deduped
+|   |   +-- ecc-jsbn@0.1.2
+|   |   | +-- jsbn@0.1.1 deduped
+|   |   | `-- safer-buffer@2.1.2 deduped
+|   |   +-- getpass@0.1.7
+|   |   | `-- assert-plus@1.0.0 deduped
+|   |   +-- jsbn@0.1.1
+|   |   +-- safer-buffer@2.1.2 deduped
+|   |   `-- tweetnacl@0.14.5
+|   +-- is-typedarray@1.0.0
+|   +-- isstream@0.1.2
+|   +-- json-stringify-safe@5.0.1
+|   +-- mime-types@2.1.26
+|   | `-- mime-db@1.43.0
+|   +-- oauth-sign@0.9.0
+|   +-- performance-now@2.1.0
+|   +-- qs@6.5.2
+|   +-- safe-buffer@5.1.2
+|   +-- tough-cookie@2.5.0
+|   | +-- psl@1.7.0 deduped
+|   | `-- punycode@2.1.1 deduped
+|   +-- tunnel-agent@0.6.0
+|   | `-- safe-buffer@5.1.2 deduped
+|   `-- uuid@3.4.0
++-- hexo-generator-archive@1.0.0
+| `-- hexo-pagination@1.0.0
++-- hexo-generator-category@1.0.0
+| `-- hexo-pagination@1.0.0 deduped
++-- hexo-generator-index@1.0.0
+| `-- hexo-pagination@1.0.0 deduped
++-- hexo-generator-search@2.4.0
+| +-- nunjucks@3.2.0 deduped
+| `-- utils-merge@1.0.1
++-- hexo-generator-tag@1.0.0
+| `-- hexo-pagination@1.0.0 deduped
++-- hexo-permalink-pinyin@1.1.0
+| `-- transliteration@1.6.6
+|   `-- yargs@12.0.5
+|     +-- cliui@4.1.0
+|     | +-- string-width@2.1.1 deduped
+|     | +-- strip-ansi@4.0.0
+|     | | `-- ansi-regex@3.0.0
+|     | `-- wrap-ansi@2.1.0 deduped
+|     +-- decamelize@1.2.0 deduped
+|     +-- find-up@3.0.0
+|     | `-- locate-path@3.0.0
+|     |   +-- p-locate@3.0.0
+|     |   | `-- p-limit@2.2.2
+|     |   |   `-- p-try@2.2.0
+|     |   `-- path-exists@3.0.0
+|     +-- get-caller-file@1.0.3
+|     +-- os-locale@3.1.0
+|     | +-- execa@1.0.0
+|     | | +-- cross-spawn@6.0.5
+|     | | | +-- nice-try@1.0.5 deduped
+|     | | | +-- path-key@2.0.1
+|     | | | +-- semver@5.7.1 deduped
+|     | | | +-- shebang-command@1.2.0
+|     | | | | `-- shebang-regex@1.0.0
+|     | | | `-- which@1.3.1
+|     | | |   `-- isexe@2.0.0 deduped
+|     | | +-- get-stream@4.1.0
+|     | | | `-- pump@3.0.0
+|     | | |   +-- end-of-stream@1.4.4
+|     | | |   | `-- once@1.4.0 deduped
+|     | | |   `-- once@1.4.0 deduped
+|     | | +-- is-stream@1.1.0
+|     | | +-- npm-run-path@2.0.2
+|     | | | `-- path-key@2.0.1
+|     | | +-- p-finally@1.0.0
+|     | | +-- signal-exit@3.0.2
+|     | | `-- strip-eof@1.0.0
+|     | +-- lcid@2.0.0
+|     | | `-- invert-kv@2.0.0
+|     | `-- mem@4.3.0
+|     |   +-- map-age-cleaner@0.1.3
+|     |   | `-- p-defer@1.0.0
+|     |   +-- mimic-fn@2.1.0
+|     |   `-- p-is-promise@2.1.0
+|     +-- require-directory@2.1.1
+|     +-- require-main-filename@1.0.1
+|     +-- set-blocking@2.0.0
+|     +-- string-width@2.1.1
+|     | +-- is-fullwidth-code-point@2.0.0
+|     | `-- strip-ansi@4.0.0 deduped
+|     +-- which-module@2.0.0
+|     +-- y18n@3.2.1 deduped
+|     `-- yargs-parser@11.1.1
+|       +-- camelcase@5.3.1
+|       `-- decamelize@1.2.0 deduped
++-- hexo-prism-plugin@2.3.0
+| +-- dir-resolve@1.0.2
+| +-- hexo-fs@0.2.3
+| | +-- bluebird@3.7.2 deduped
+| | +-- chokidar@1.7.0
+| | | +-- anymatch@1.3.2
+| | | | +-- micromatch@2.3.11
+| | | | | +-- arr-diff@2.0.0
+| | | | | | `-- arr-flatten@1.1.0 deduped
+| | | | | +-- array-unique@0.2.1
+| | | | | +-- braces@1.8.5
+| | | | | | +-- expand-range@1.8.2 deduped
+| | | | | | +-- preserve@0.2.0 deduped
+| | | | | | `-- repeat-element@1.1.3 deduped
+| | | | | +-- expand-brackets@0.1.5
+| | | | | | `-- is-posix-bracket@0.1.1 deduped
+| | | | | +-- extglob@0.3.2
+| | | | | | `-- is-extglob@1.0.0 deduped
+| | | | | +-- filename-regex@2.0.1 deduped
+| | | | | +-- is-extglob@1.0.0 deduped
+| | | | | +-- is-glob@2.0.1 deduped
+| | | | | +-- kind-of@3.2.2
+| | | | | | `-- is-buffer@1.1.6 deduped
+| | | | | +-- normalize-path@2.1.1 deduped
+| | | | | +-- object.omit@2.0.1 deduped
+| | | | | +-- parse-glob@3.0.4 deduped
+| | | | | `-- regex-cache@0.4.4 deduped
+| | | | `-- normalize-path@2.1.1
+| | | |   `-- remove-trailing-separator@1.1.0 deduped
+| | | +-- async-each@1.0.3 deduped
+| | | +-- UNMET OPTIONAL DEPENDENCY fsevents@1.2.11
+| | | | `-- UNMET OPTIONAL DEPENDENCY node-pre-gyp@0.14.0
+| | | |   +-- UNMET OPTIONAL DEPENDENCY detect-libc@1.0.3
+| | | |   +-- UNMET OPTIONAL DEPENDENCY mkdirp@0.5.1
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY minimist@0.0.8
+| | | |   +-- UNMET OPTIONAL DEPENDENCY needle@2.4.0
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY debug@3.2.6
+| | | |   | | `-- UNMET OPTIONAL DEPENDENCY ms@2.1.2
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY iconv-lite@0.4.24
+| | | |   | | `-- UNMET OPTIONAL DEPENDENCY safer-buffer@2.1.2
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY sax@1.2.4
+| | | |   +-- UNMET OPTIONAL DEPENDENCY nopt@4.0.1
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY abbrev@1.1.1
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY osenv@0.1.5
+| | | |   |   +-- UNMET OPTIONAL DEPENDENCY os-homedir@1.0.2
+| | | |   |   `-- UNMET OPTIONAL DEPENDENCY os-tmpdir@1.0.2
+| | | |   +-- UNMET OPTIONAL DEPENDENCY npm-packlist@1.4.7
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY ignore-walk@3.0.3
+| | | |   | | `-- UNMET OPTIONAL DEPENDENCY minimatch@3.0.4
+| | | |   | |   `-- UNMET OPTIONAL DEPENDENCY brace-expansion@1.1.11
+| | | |   | |     +-- UNMET OPTIONAL DEPENDENCY balanced-match@1.0.0
+| | | |   | |     `-- UNMET OPTIONAL DEPENDENCY concat-map@0.0.1
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY npm-bundled@1.1.1
+| | | |   |   `-- UNMET OPTIONAL DEPENDENCY npm-normalize-package-bin@1.0.1
+| | | |   +-- UNMET OPTIONAL DEPENDENCY npmlog@4.1.2
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY are-we-there-yet@1.1.5
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY delegates@1.0.0
+| | | |   | | `-- UNMET OPTIONAL DEPENDENCY readable-stream@2.3.6
+| | | |   | |   +-- UNMET OPTIONAL DEPENDENCY core-util-is@1.0.2
+| | | |   | |   +-- UNMET OPTIONAL DEPENDENCY inherits@2.0.4
+| | | |   | |   +-- UNMET OPTIONAL DEPENDENCY isarray@1.0.0
+| | | |   | |   +-- UNMET OPTIONAL DEPENDENCY process-nextick-args@2.0.1
+| | | |   | |   +-- UNMET OPTIONAL DEPENDENCY safe-buffer@5.1.2
+| | | |   | |   +-- UNMET OPTIONAL DEPENDENCY string_decoder@1.1.1
+| | | |   | |   | `-- UNMET OPTIONAL DEPENDENCY safe-buffer@5.1.2
+| | | |   | |   `-- UNMET OPTIONAL DEPENDENCY util-deprecate@1.0.2
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY console-control-strings@1.1.0
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY gauge@2.7.4
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY aproba@1.2.0
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY console-control-strings@1.1.0
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY has-unicode@2.0.1
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY object-assign@4.1.1
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY signal-exit@3.0.2
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY string-width@1.0.2
+| | | |   | | | +-- UNMET OPTIONAL DEPENDENCY code-point-at@1.1.0
+| | | |   | | | +-- UNMET OPTIONAL DEPENDENCY is-fullwidth-code-point@1.0.0
+| | | |   | | | | `-- UNMET OPTIONAL DEPENDENCY number-is-nan@1.0.1
+| | | |   | | | `-- UNMET OPTIONAL DEPENDENCY strip-ansi@3.0.1
+| | | |   | | +-- UNMET OPTIONAL DEPENDENCY strip-ansi@3.0.1
+| | | |   | | | `-- UNMET OPTIONAL DEPENDENCY ansi-regex@2.1.1
+| | | |   | | `-- UNMET OPTIONAL DEPENDENCY wide-align@1.1.3
+| | | |   | |   `-- UNMET OPTIONAL DEPENDENCY string-width@1.0.2
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY set-blocking@2.0.0
+| | | |   +-- UNMET OPTIONAL DEPENDENCY rc@1.2.8
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY deep-extend@0.6.0
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY ini@1.3.5
+| | | |   | +-- UNMET OPTIONAL DEPENDENCY minimist@1.2.0
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY strip-json-comments@2.0.1
+| | | |   +-- UNMET OPTIONAL DEPENDENCY rimraf@2.7.1
+| | | |   | `-- UNMET OPTIONAL DEPENDENCY glob@7.1.6
+| | | |   |   +-- UNMET OPTIONAL DEPENDENCY fs.realpath@1.0.0
+| | | |   |   +-- UNMET OPTIONAL DEPENDENCY inflight@1.0.6
+| | | |   |   | +-- UNMET OPTIONAL DEPENDENCY once@1.4.0
+| | | |   |   | `-- UNMET OPTIONAL DEPENDENCY wrappy@1.0.2
+| | | |   |   +-- UNMET OPTIONAL DEPENDENCY inherits@2.0.4
+| | | |   |   +-- UNMET OPTIONAL DEPENDENCY minimatch@3.0.4
+| | | |   |   +-- UNMET OPTIONAL DEPENDENCY once@1.4.0
+| | | |   |   | `-- UNMET OPTIONAL DEPENDENCY wrappy@1.0.2
+| | | |   |   `-- UNMET OPTIONAL DEPENDENCY path-is-absolute@1.0.1
+| | | |   +-- UNMET OPTIONAL DEPENDENCY semver@5.7.1
+| | | |   `-- UNMET OPTIONAL DEPENDENCY tar@4.4.13
+| | | |     +-- UNMET OPTIONAL DEPENDENCY chownr@1.1.3
+| | | |     +-- UNMET OPTIONAL DEPENDENCY fs-minipass@1.2.7
+| | | |     | `-- UNMET OPTIONAL DEPENDENCY minipass@2.9.0
+| | | |     +-- UNMET OPTIONAL DEPENDENCY minipass@2.9.0
+| | | |     | +-- UNMET OPTIONAL DEPENDENCY safe-buffer@5.1.2
+| | | |     | `-- UNMET OPTIONAL DEPENDENCY yallist@3.1.1
+| | | |     +-- UNMET OPTIONAL DEPENDENCY minizlib@1.3.3
+| | | |     | `-- UNMET OPTIONAL DEPENDENCY minipass@2.9.0
+| | | |     +-- UNMET OPTIONAL DEPENDENCY mkdirp@0.5.1
+| | | |     +-- UNMET OPTIONAL DEPENDENCY safe-buffer@5.1.2
+| | | |     `-- UNMET OPTIONAL DEPENDENCY yallist@3.1.1
+| | | +-- glob-parent@2.0.0
+| | | | `-- is-glob@2.0.1 deduped
+| | | +-- inherits@2.0.4 deduped
+| | | +-- is-binary-path@1.0.1
+| | | | `-- binary-extensions@1.13.1
+| | | +-- is-glob@2.0.1
+| | | | `-- is-extglob@1.0.0
+| | | +-- path-is-absolute@1.0.1 deduped
+| | | `-- readdirp@2.2.1
+| | |   +-- graceful-fs@4.2.3 deduped
+| | |   +-- micromatch@3.1.10
+| | |   | +-- arr-diff@4.0.0
+| | |   | +-- array-unique@0.3.2
+| | |   | +-- braces@2.3.2
+| | |   | | +-- arr-flatten@1.1.0 deduped
+| | |   | | +-- array-unique@0.3.2 deduped
+| | |   | | +-- extend-shallow@2.0.1
+| | |   | | | `-- is-extendable@0.1.1 deduped
+| | |   | | +-- fill-range@4.0.0
+| | |   | | | +-- extend-shallow@2.0.1
+| | |   | | | | `-- is-extendable@0.1.1 deduped
+| | |   | | | +-- is-number@3.0.0
+| | |   | | | | `-- kind-of@3.2.2 deduped
+| | |   | | | +-- repeat-string@1.6.1 deduped
+| | |   | | | `-- to-regex-range@2.1.1
+| | |   | | |   +-- is-number@3.0.0 deduped
+| | |   | | |   `-- repeat-string@1.6.1 deduped
+| | |   | | +-- isobject@3.0.1 deduped
+| | |   | | +-- repeat-element@1.1.3 deduped
+| | |   | | +-- snapdragon@0.8.2 deduped
+| | |   | | +-- snapdragon-node@2.1.1 deduped
+| | |   | | +-- split-string@3.1.0 deduped
+| | |   | | `-- to-regex@3.0.2 deduped
+| | |   | +-- define-property@2.0.2 deduped
+| | |   | +-- extend-shallow@3.0.2 deduped
+| | |   | +-- extglob@2.0.4
+| | |   | | +-- array-unique@0.3.2 deduped
+| | |   | | +-- define-property@1.0.0
+| | |   | | | `-- is-descriptor@1.0.2
+| | |   | | |   +-- is-accessor-descriptor@1.0.0
+| | |   | | |   | `-- kind-of@6.0.3
+| | |   | | |   +-- is-data-descriptor@1.0.0
+| | |   | | |   | `-- kind-of@6.0.3
+| | |   | | |   `-- kind-of@6.0.3
+| | |   | | +-- expand-brackets@2.1.4
+| | |   | | | +-- debug@2.6.9 deduped
+| | |   | | | +-- define-property@0.2.5
+| | |   | | | | `-- is-descriptor@0.1.6
+| | |   | | | |   +-- is-accessor-descriptor@0.1.6
+| | |   | | | |   | `-- kind-of@3.2.2
+| | |   | | | |   |   `-- is-buffer@1.1.6 deduped
+| | |   | | | |   +-- is-data-descriptor@0.1.4
+| | |   | | | |   | `-- kind-of@3.2.2
+| | |   | | | |   |   `-- is-buffer@1.1.6 deduped
+| | |   | | | |   `-- kind-of@5.1.0
+| | |   | | | +-- extend-shallow@2.0.1
+| | |   | | | | `-- is-extendable@0.1.1 deduped
+| | |   | | | +-- posix-character-classes@0.1.1 deduped
+| | |   | | | +-- regex-not@1.0.2 deduped
+| | |   | | | +-- snapdragon@0.8.2 deduped
+| | |   | | | `-- to-regex@3.0.2 deduped
+| | |   | | +-- extend-shallow@2.0.1
+| | |   | | | `-- is-extendable@0.1.1 deduped
+| | |   | | +-- fragment-cache@0.2.1 deduped
+| | |   | | +-- regex-not@1.0.2 deduped
+| | |   | | +-- snapdragon@0.8.2 deduped
+| | |   | | `-- to-regex@3.0.2 deduped
+| | |   | +-- fragment-cache@0.2.1 deduped
+| | |   | +-- kind-of@6.0.3
+| | |   | +-- nanomatch@1.2.13 deduped
+| | |   | +-- object.pick@1.3.0 deduped
+| | |   | +-- regex-not@1.0.2 deduped
+| | |   | +-- snapdragon@0.8.2 deduped
+| | |   | `-- to-regex@3.0.2 deduped
+| | |   `-- readable-stream@2.3.7 deduped
+| | +-- escape-string-regexp@1.0.5 deduped
+| | `-- graceful-fs@4.2.3 deduped
+| +-- node-prismjs@0.1.2
+| | `-- prismjs@1.6.0
+| |   `-- clipboard@1.7.1
+| |     +-- good-listener@1.2.2 deduped
+| |     +-- select@1.1.2 deduped
+| |     `-- tiny-emitter@2.1.0 deduped
+| +-- prism-themes@1.3.0
+| `-- prismjs@1.19.0
+|   `-- clipboard@2.0.4
+|     +-- good-listener@1.2.2
+|     | `-- delegate@3.2.0
+|     +-- select@1.1.2
+|     `-- tiny-emitter@2.1.0
++-- hexo-renderer-ejs@1.0.0
+| `-- ejs@2.7.4
++-- hexo-renderer-marked@2.0.0
+| +-- hexo-util@1.0.0
+| | +-- bluebird@3.7.2 deduped
+| | +-- camel-case@3.0.0
+| | | +-- no-case@2.3.2
+| | | | `-- lower-case@1.1.4
+| | | `-- upper-case@1.1.3
+| | +-- cross-spawn@6.0.5
+| | | +-- nice-try@1.0.5
+| | | +-- path-key@2.0.1
+| | | +-- semver@5.7.1
+| | | +-- shebang-command@1.2.0
+| | | | `-- shebang-regex@1.0.0
+| | | `-- which@1.3.1
+| | |   `-- isexe@2.0.0 deduped
+| | +-- highlight.js@9.18.1 deduped
+| | +-- html-entities@1.2.1
+| | `-- striptags@3.1.1 deduped
+| +-- marked@0.7.0
+| `-- strip-indent@3.0.0 deduped
++-- hexo-renderer-stylus@1.1.0
+| +-- nib@1.1.2
+| | `-- stylus@0.54.5
+| |   +-- css-parse@1.7.0
+| |   +-- debug@2.6.9 deduped
+| |   +-- glob@7.0.6
+| |   | +-- fs.realpath@1.0.0 deduped
+| |   | +-- inflight@1.0.6 deduped
+| |   | +-- inherits@2.0.4 deduped
+| |   | +-- minimatch@3.0.4 deduped
+| |   | +-- once@1.4.0 deduped
+| |   | `-- path-is-absolute@1.0.1 deduped
+| |   +-- mkdirp@0.5.1 deduped
+| |   +-- sax@0.5.8
+| |   `-- source-map@0.1.43
+| |     `-- amdefine@1.0.1
+| `-- stylus@0.54.7
+|   +-- css-parse@2.0.0
+|   | `-- css@2.2.4
+|   |   +-- inherits@2.0.4 deduped
+|   |   +-- source-map@0.6.1
+|   |   +-- source-map-resolve@0.5.3
+|   |   | +-- atob@2.1.2
+|   |   | +-- decode-uri-component@0.2.0
+|   |   | +-- resolve-url@0.2.1
+|   |   | +-- source-map-url@0.4.0
+|   |   | `-- urix@0.1.0 deduped
+|   |   `-- urix@0.1.0
+|   +-- debug@3.1.0
+|   | `-- ms@2.0.0
+|   +-- glob@7.1.6
+|   | +-- fs.realpath@1.0.0
+|   | +-- inflight@1.0.6
+|   | | +-- once@1.4.0 deduped
+|   | | `-- wrappy@1.0.2
+|   | +-- inherits@2.0.4 deduped
+|   | +-- minimatch@3.0.4
+|   | | `-- brace-expansion@1.1.11
+|   | |   +-- balanced-match@1.0.0
+|   | |   `-- concat-map@0.0.1
+|   | +-- once@1.4.0
+|   | | `-- wrappy@1.0.2 deduped
+|   | `-- path-is-absolute@1.0.1 deduped
+|   +-- mkdirp@0.5.1
+|   | `-- minimist@0.0.8
+|   +-- safer-buffer@2.1.2
+|   +-- sax@1.2.4
+|   +-- semver@6.3.0
+|   `-- source-map@0.7.3
++-- hexo-server@1.0.0
+| +-- bluebird@3.7.2 deduped
+| +-- chalk@2.4.2
+| | +-- ansi-styles@3.2.1
+| | | `-- color-convert@1.9.3
+| | |   `-- color-name@1.1.3
+| | +-- escape-string-regexp@1.0.5 deduped
+| | `-- supports-color@5.5.0
+| |   `-- has-flag@3.0.0
+| +-- compression@1.7.4
+| | +-- accepts@1.3.7
+| | | +-- mime-types@2.1.26 deduped
+| | | `-- negotiator@0.6.2
+| | +-- bytes@3.0.0
+| | +-- compressible@2.0.18
+| | | `-- mime-db@1.43.0 deduped
+| | +-- debug@2.6.9
+| | | `-- ms@2.0.0 deduped
+| | +-- on-headers@1.0.2
+| | +-- safe-buffer@5.1.2 deduped
+| | `-- vary@1.1.2
+| +-- connect@3.7.0
+| | +-- debug@2.6.9 deduped
+| | +-- finalhandler@1.1.2
+| | | +-- debug@2.6.9 deduped
+| | | +-- encodeurl@1.0.2 deduped
+| | | +-- escape-html@1.0.3 deduped
+| | | +-- on-finished@2.3.0 deduped
+| | | +-- parseurl@1.3.3 deduped
+| | | +-- statuses@1.5.0
+| | | `-- unpipe@1.0.0
+| | +-- parseurl@1.3.3
+| | `-- utils-merge@1.0.1 deduped
+| +-- mime@2.4.4
+| +-- morgan@1.9.1
+| | +-- basic-auth@2.0.1
+| | | `-- safe-buffer@5.1.2 deduped
+| | +-- debug@2.6.9 deduped
+| | +-- depd@1.1.2
+| | +-- on-finished@2.3.0
+| | | `-- ee-first@1.1.1
+| | `-- on-headers@1.0.2 deduped
+| +-- open@6.4.0
+| | `-- is-wsl@1.1.0
+| `-- serve-static@1.14.1
+|   +-- encodeurl@1.0.2
+|   +-- escape-html@1.0.3
+|   +-- parseurl@1.3.3 deduped
+|   `-- send@0.17.1
+|     +-- debug@2.6.9 deduped
+|     +-- depd@1.1.2 deduped
+|     +-- destroy@1.0.4
+|     +-- encodeurl@1.0.2 deduped
+|     +-- escape-html@1.0.3 deduped
+|     +-- etag@1.8.1
+|     +-- fresh@0.5.2
+|     +-- http-errors@1.7.3
+|     | +-- depd@1.1.2 deduped
+|     | +-- inherits@2.0.4 deduped
+|     | +-- setprototypeof@1.1.1
+|     | +-- statuses@1.5.0 deduped
+|     | `-- toidentifier@1.0.0
+|     +-- mime@1.6.0
+|     +-- ms@2.1.1
+|     +-- on-finished@2.3.0 deduped
+|     +-- range-parser@1.2.1
+|     `-- statuses@1.5.0 deduped
+`-- hexo-wordcount@6.0.1
+
