@@ -4,7 +4,7 @@
 
 # Site
 title: 'Knight Zero'
-subtitle: ''
+subtitle: 'Wel Come！Wel Come！'
 description: 交流技术与心得的个人小破站
 keywords: '个人博客,blog,IT,技术,网络,互联网,C#,HTML'
 author: 'Knight Zero'
@@ -19,7 +19,7 @@ search:
 #图片懒加载
 lazyload:
   enable: true  # 是否开启图片懒加载
-  onlypost: false  # 是否只对文章的图片做懒加载
+  onlypost: true  # 是否只对文章的图片做懒加载
   loadingImg: http://m.qpic.cn/psc?/V14RBB4W1HO62x/iXs1ae7hmJtTd.wIcSd4.RfkJEMAlJgHaRCrS5Uimpn8zFFSFHDmGx04pDgzyrUzaqs1FheZZe1CrHsf5jOTdRmZWKzb8.44RJYIPOFNROE!/b&bo=kgLuAZIC7gECCS0!&rf=viewer_4 # eg ./images/loading.gif
 
 # 启用emoji表情支持
