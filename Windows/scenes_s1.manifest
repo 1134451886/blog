@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 242076047
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 726a9c8b3e9682c08b8596f8d9787ee0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 16669472d84039025e06c50fd9abc68e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 850595691
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundleMagic/Scenes/s1.unity
+Dependencies: []

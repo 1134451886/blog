@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1140169580
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: scenes
+      Dependencies:
+        Dependency_0: images.hd
+    Info_1:
+      Name: images.sd
+      Dependencies: {}
+    Info_2:
+      Name: scenes_s4
+      Dependencies: {}
+    Info_3:
+      Name: scenes_s3
+      Dependencies: {}
+    Info_4:
+      Name: scenes_s2
+      Dependencies: {}
+    Info_5:
+      Name: scenes_s1
+      Dependencies: {}
+    Info_6:
+      Name: images.hd
+      Dependencies: {}
